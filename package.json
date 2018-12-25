@@ -1,0 +1,19 @@
+{
+  "name": "ChaseRudraWeb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Debug-Studios/ChaseRudraWeb.git",
+  "author": "Prajjwal <prajjwaldimri@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0"
+  }
+}

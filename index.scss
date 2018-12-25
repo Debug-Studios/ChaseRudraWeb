@@ -1,8 +1,8 @@
 @import "./stylesheets/_reset.scss";
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,400,600");
+
 * {
-  top: 0;
-  margin: 0;
-  padding: 0;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .container {
@@ -10,23 +10,23 @@
   background-color: white;
 }
 
-.container-one{
+.container-one {
   height: 100px;
   background-color: purple;
 }
-.container-two{
+.container-two {
   height: 100px;
   background-color: pink;
 }
-.container-three{
+.container-three {
   height: 100px;
   background-color: orangered;
 }
-.container-four{
+.container-four {
   height: 100px;
   background-color: yellow;
 }
-.container-five{
+.container-five {
   height: 100px;
   background-color: lightcoral;
 }
@@ -35,4 +35,3 @@
   background-color: silver;
   height: 40vh;
 }
-

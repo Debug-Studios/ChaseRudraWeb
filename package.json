@@ -16,7 +16,5 @@
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.11.0"
   },
-  "dependencies": {
-    "@ibm/plex": "^1.2.3"
-  }
+  "dependencies": {}
 }

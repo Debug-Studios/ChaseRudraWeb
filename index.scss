@@ -6,9 +6,13 @@
   font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-.container {
-  height: 500px;
-  background-color: white;
+body {
+  margin: 2rem;
+}
+
+.landing {
+  height: 100vh;
+  background: linear-gradient(103deg, #c7611c, #d9a669);
 }
 
 .container-one {
@@ -26,10 +30,6 @@
 .container-four {
   height: 100px;
   background-color: yellow;
-}
-.container-five {
-  height: 100px;
-  background-color: lightcoral;
 }
 
 .footer {

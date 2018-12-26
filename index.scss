@@ -20,18 +20,15 @@ body {
     text-decoration: none;
     padding: 10px;
     color: white;
-
     &_list {
         display: flex;
         flex-direction: row;
         justify-content: center;
         list-style: none;
-
         a {
             text-decoration: none;
             padding: 15px;
             color: inherit;
-
             &:hover {
                 opacity: 0.7;
             }
@@ -43,13 +40,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     img {
         height: 30px;
         width: 30px;
         padding: 8px;
-
-        &:hover{
+        &:hover {
             opacity: 0.7;
         }
     }
@@ -58,6 +53,80 @@ body {
 .copyright {
     text-align: center;
     margin: 20px;
-    margin-left: 70px;
-    // word-spacing: 5px;
+    margin-left: 70px; // word-spacing: 5px;
+}
+
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(#000, .8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__close {
+        &:link,
+        &:visited {
+        position: absolute;
+        color: #000;
+        top: 2.5rem;
+        right: 2.5rem;
+        font-size: 2.5rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .2s;
+
+        }
+
+        &:hover {
+            color: whitesmoke;
+        }
+    }
+
+    &__aboutus {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 75%;
+        // height: 25rem;
+        background-color: cadetblue;
+        box-shadow: 0 2rem 4rem rgba(#000, .2);
+        padding: 40px;
+        border-radius: 3px;
+    }
+
+    &__heading {
+        text-align: center;
+    }
+
+    &__images {
+        display: inline-block;
+        width: 35%;
+        flex-direction: column;
+        margin-left: 10%;
+
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+
+    &__paras {
+        display: block;
+        // text-align: center;
+        padding: 20px 50px;
+        word-spacing: 10px;
+        text-align: justify;
+
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
 }

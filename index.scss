@@ -33,6 +33,18 @@
 
 .footer {
   background-color: silver;
-  height: 40vh;
+  height: 30vh;
+
+  text-align: center;
+
+  &_list {
+    text-decoration: none;
+    margin: 30px;
+  }
+}
+
+.Icons {
+  height: 30px;
+  width: 30px;
 }
 

@@ -1,50 +1,54 @@
 @import "./stylesheets/_reset.scss";
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,400,600");
 @import url("https://fonts.googleapis.com/css?family=Rock+Salt");
-
 * {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
-  margin: 2rem;
+    margin: 2rem;
 }
 
 .landing {
-  height: 100vh;
-  background: linear-gradient(103deg, #c7611c, #d9a669);
-}
-
-.container-one {
-  height: 100px;
-  background-color: purple;
-}
-.container-two {
-  height: 100px;
-  background-color: pink;
-}
-.container-three {
-  height: 100px;
-  background-color: orangered;
-}
-.container-four {
-  height: 100px;
-  background-color: yellow;
+    height: 100vh;
+    background: linear-gradient(103deg, #c7611c, #d9a669);
 }
 
 .footer {
-  background-color: silver;
-  height: 30vh;
-
-  text-align: center;
-
-  &_list {
+    background: linear-gradient(to right bottom, #22201f, #161313);
+    height: 30vh;
     text-decoration: none;
-    margin: 30px;
-  }
+    padding: 10px;
+    color: white;
+
+    &_list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            padding: 15px;
+            color: inherit;
+        }
+    }
 }
 
 .Icons {
-  height: 30px;
-  width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    img {
+        height: 30px;
+        width: 30px;
+        padding: 8px;
+    }
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px;
+    margin-left: 70px;
+    // word-spacing: 5px;
 }

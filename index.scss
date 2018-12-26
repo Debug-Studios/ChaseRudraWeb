@@ -1,34 +1,35 @@
 @import "./stylesheets/_reset.scss";
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,400,600");
+@import url("https://fonts.googleapis.com/css?family=Rock+Salt");
+
 * {
-  top: 0;
-  margin: 0;
-  padding: 0;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-.container {
-  height: 500px;
-  background-color: white;
+body {
+  margin: 2rem;
 }
 
-.container-one{
+.landing {
+  height: 100vh;
+  background: linear-gradient(103deg, #c7611c, #d9a669);
+}
+
+.container-one {
   height: 100px;
   background-color: purple;
 }
-.container-two{
+.container-two {
   height: 100px;
   background-color: pink;
 }
-.container-three{
+.container-three {
   height: 100px;
   background-color: orangered;
 }
-.container-four{
+.container-four {
   height: 100px;
   background-color: yellow;
-}
-.container-five{
-  height: 100px;
-  background-color: lightcoral;
 }
 
 .footer {
@@ -47,4 +48,3 @@
   height: 30px;
   width: 30px;
 }
-
